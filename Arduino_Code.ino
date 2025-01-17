@@ -30,8 +30,8 @@
 #define FLASH_LED_PIN 4             
 
 //======================================== Insert your network credentials.
-const char* ssid = "moto g82 5G_5548";
-const char* password = "luqman@123";
+const char* ssid = "WiFi SSID";
+const char* password = "WiFi Password";
 //======================================== 
 
 #define trigPin 14
