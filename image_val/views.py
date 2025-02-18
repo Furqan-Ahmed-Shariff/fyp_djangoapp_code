@@ -46,4 +46,4 @@ def index(request):
             serializer.save()
             return Response(["POST OK"])
         return Response(500)
-    return Response(["hello", "furqan"])
+    return Response(500)

@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-x1=ue(*p0&(iq!q(z9blqp60=*j2t@&c&@4pqd+t)^2)!63s&x"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "172.16.0.126",
@@ -175,7 +175,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = "static/"
-STATIC_ROOT = os.path.join(BASE_DIR, "static/admin")
+STATIC_ROOT = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
@@ -183,7 +183,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static/admin")
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-MEDIA_ROOT = "media"
+MEDIA_ROOT = "media/"
 MEDIA_URL = "media/"
 
 CORS_ALLOW_ALL_ORIGINS = True
@@ -191,4 +191,6 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost",
     "http://127.0.0.1",
     "http://117.211.18.69",
+    "http://3.7.245.16",
+    "http://10.71.140.7",
 ]
